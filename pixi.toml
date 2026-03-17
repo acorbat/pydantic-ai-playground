@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Agustin Corbat <acorbat@df.uba.ar>"]
+channels = ["conda-forge"]
+name = "pydantic-ai-playground"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pydantic-ai = ">=1.69.0,<2"
